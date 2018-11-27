@@ -23,7 +23,7 @@ public class GenerateFile {
             	file1.write("A"+i+",");
             	file1.write(field1+",");
             	file1.write(field2+",");
-            	file1.write(field3+",");
+            	file1.write(field3);
             	file1.write("\r\n");
             	
             	
@@ -32,14 +32,14 @@ public class GenerateFile {
             		file2.write("A"+i+",");
                 	file2.write(generateRandomWords()+",");
                 	file2.write(field2+",");
-                	file2.write(generateRandomWords()+",");
+                	file2.write(generateRandomWords());
                 	file2.write("\r\n");
 
             	} else if (i > 5000 && i < 6000 ) { // Adding new record
             		file2.write("A"+i+ j++ );
                 	file2.write("," + generateRandomWords()+",");
                 	file2.write(generateRandomWords()+",");
-                	file2.write(generateRandomWords()+",");
+                	file2.write(generateRandomWords());
                 	file2.write("\r\n");
             		
             	} else if (i > 10000 && i < 20000 ) {
@@ -50,7 +50,7 @@ public class GenerateFile {
             		file2.write("A"+i+",");
                 	file2.write(field1+",");
                 	file2.write(field2+",");
-                	file2.write(field3+",");
+                	file2.write(field3);
                 	file2.write("\r\n");
             	}
             	
