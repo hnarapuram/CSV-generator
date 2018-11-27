@@ -1,4 +1,4 @@
-package gov.fda.aims.foi.bean.assignmentsAo.assignments;
+
 
 
 import java.io.FileWriter;
